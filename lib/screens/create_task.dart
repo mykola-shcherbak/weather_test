@@ -71,7 +71,7 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
                     maxLines: 4,
                     decoration: InputDecoration(
                       contentPadding: const EdgeInsets.all(10),
-                      hintText: TextConstants.descriptionError,
+                      hintText: TextConstants.description,
                       errorText: isDescriptionError
                           ? TextConstants.descriptionError
                           : null,
